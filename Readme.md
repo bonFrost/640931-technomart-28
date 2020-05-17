@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Владислав Савельев](https://up.htmlacademy.ru/htmlcss/28/user/640931).
-* Наставник: [Михаил Поданев](https://htmlacademy.ru/profile/mpodanev).
+* Наставник: [Наталья Налимова](https://up.htmlacademy.ru/htmlcss/28/tutors).
 
 ---
 
