@@ -33,9 +33,11 @@ body {
   padding: 0;
   background-color: var(--white);
   font-family: "PT Sans", sans-serif;
-  font-size: 24px;
+  font-size: 13px;
+  line-height: 24px;
   font-weight: 400;
   color: var(--basic-color);
+  text-align: center;
 }
 
 a {
@@ -47,50 +49,443 @@ img {
   height: auto;
 }
 
-/* Main navigation */
 
-.header-nav,
-.user-nav  {
-  font-size: 18px;
-  color: var(--white);
+/* Header */
+
+header {
+  background-color: #F3F7F9;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+}
+
+header p {
+  color: #EE3643;
+  font-size: 16px;
+  line-height: 23px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.menu {
   background-color: #293449;
 }
 
 .logo-img {
-  background-color: var(--basic-red);
+  background-color: #EE3643;
 }
 
-.btn-header {
-  background-color: var(--basic-green);
+/* .search {
+  background-image: url(../img/icon-search.svg);
+  background-repeat: no-repeat;
+} */
+
+/* Динамика menu */
+.menu a:hover {
+
 }
 
 .btn-header:hover {
-  background-color: var(--success);
+  background-color: #5FBB2D;
 }
 
+.search:hover {
+  background-color: var(--white);
+  color: #000000;
+}
 
+.menu a:active {
+  opacity: 75%;
+}
 
-.user-nav li {
+/* Динамика входа */
+.log-in:hover,
+.join:hover {
+  color: var(--basic-red);
+}
+
+.log-in:active,
+.join:active {
+  color: var(--basic-greylight);
+}
+
+/* Динамика sub-menu */
+.sub-menu a:hover {
+  background-color: #293449;
+}
+
+.sub-menu a:active {
+  background-color: #293449;
+  opacity: 25%;
+}
+
+.menu a,
+.search {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.btn-header {
+  background-color: #63A63E;
+}
+
+.num-phone {
+  border: 3px solid #FFFFFF;
+  color: #EE3643;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.header-address {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #32425C;
+}
+
+.log-in,
+.join {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  font-family: "Cuprum", sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.sub-menu {
+  background-color: #32425C;
+}
+
+.sub-menu a{
+  color: #ffffff;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* INFO */
+
+.info {
+  background-color: #ffffff;
+}
+
+.info p {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.about-title {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about .deliver-comp {
+  list-style: none;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.contacts-title {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.btn-info {
+  background-color: var(--basic-red);
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* FOOTER */
+
+.footer ul {
   list-style: none;
 }
 
-.header-nav a,
-.user-nav a {
+.footer-up {
+  background-color: #32425C;
+}
+
+
+
+
+/* FOOTER one */
+
+.footer-address,
+.footer-number {
+  color: #F3F7F9;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* FOOTER two */
+
+.footer-nav a {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #F1F5F7;
+}
+
+/* FOOTER catalog */
+
+.footer-catalog a {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #FFD180;
+}
+
+/* FOOTER end */
+
+.footer-end {
+  background-color: #293449;
+}
+
+.footer-end p {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.social a {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.copyright p {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.copyright a {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #FFD180;
+}
+
+/* Динамика footer */
+.footer-two a:hover,
+.footer-catalog a:hover {
+  text-decoration: underline;
+}
+
+.footer-two a:active,
+.footer-catalog a:active {
+  opacity: 25%;
   text-decoration: none;
-  color: var(--white);
 }
 
-.header-nav a:hover {
+.copyright a:hover {
+  text-decoration: underline;
+}
+
+.copyright a:active {
+  text-decoration: none;
+  color: #EE3643;
+}
+
+/* Catalog */
+.shopping-cart {
+  background-color: #EE3643;
+}
+
+.shopping-cart:hover {
 
 }
 
-.header-nav a:active:not(.search) {
-  background-color: rgba(41, 52, 73, 0.5);
-  color: rgba(255, 255, 255, 0.3);
+.catalog-personal-area {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
 }
 
-.btn-header:active {
-  background-color: rgba(95, 187, 45, 0.7);
+.catalog-my-products,
+.catalog-my-account {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425C;
+}
+
+.catalog-my-products:hover,
+.catalog-my-account:hover {
+  color: var(--basic-red);
+}
+
+.catalog-my-products:active,
+.catalog-my-account:active,
+.catalog-personal-area:active {
+  opacity: 25%;
+  color: #000000;
+}
+
+/* Nav-catalog */
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.catalog-title {
+  background-color: #F2F6F8;
+  color: #32425C;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+/* FIlter */
+
+.fabricator,
+.power {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+fieldset label {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.btn-filter {
+  border: 1px solid #E5E5E5;
+  background-color: #ffffff;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+/* SORT */
+
+
+
+/* CATALOG */
+.catalog ul {
+  list-style: none;
 }
 
 
+
+.catalog li {
+  border: 1px solid #eaeaea;
+  width: 320px;
+  height: 318px;
+}
+
+.catalog h3 {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.p-close {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color:#a9a9a9;
+}
+
+.price {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(../img/red-buttonred-icon.svg);
+  background-repeat: no-repeat;
+}
+
+.buy {
+  background-color: #63A63E;
+  color: #ffffff;
+
+}
+
+.marker {
+  border: 3px solid #63A63E;
+  background-color: #ffffff;
+  color: #32425C;
+}
+
+.buy,
+.marker {
+
+  border-radius: 2px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}

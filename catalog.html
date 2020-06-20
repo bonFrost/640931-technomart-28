@@ -3,32 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-    <header>
-      <section>
+    <header class="header">
+      <section class="menu">
           <a>
-            <img src="img/logo-technomart.svg" width="220" height="47" alt="logo">
+            <img src="img/logo-technomart.svg" width="220" height="47" alt="logo" class="logo-img">
           </a>
-          <span>Поиск</span>
+          <span class="search">Поиск</span>
           <a href="">Закладки: 0</a>
-          <a href="">Корзина: 10</a>
-          <a href="">Оформить заказ</a>
+          <a href="" class="shopping-cart">Корзина: 10</a>
+          <a href="" class="btn-header">Оформить заказ</a>
       </section>
 
       <section>
         <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-        <a href="tel:+78125550555" >+7 (812) 555-05-55</a>
-        <span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
-        <a href="">Равшан Джамуштович</a>
-        <a href="">Мои заказы</a>
-        <a href="">Личный кабинет</a>
-        <a href="">Выйти</a>
+        <a href="tel:+78125550555" class="num-phone">+7 (812) 555-05-55</a>
+        <span class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
+        <a href="" class="catalog-personal-area">Равшан Джамуштович</a>
+        <a href="" class="catalog-my-products">Мои заказы</a>
+        <a href="" class="catalog-my-account">Личный кабинет</a>
+        <a href="" class="catalog-log-out">Выйти</a>
       </section>
 
       <nav>
-        <ul class="header-nav">
+        <ul class="sub-menu">
           <li><a href="index.html">Главная</a></li>
           <li><a href="">Компания</a></li>
           <li><a>Каталог</a></li>
@@ -49,7 +52,7 @@
           <li><a>Перфораторы</a></li>
         </ul>
 
-      <h1>Перфораторы</h1>
+      <h1 class="catalog-title">Перфораторы</h1>
 
       <section class="filter">
 
@@ -57,7 +60,7 @@
 
           <fieldset>
 
-            <legend>Производители:</legend>
+            <legend class="fabricator">Производители:</legend>
             <p>
               <label for="Bosch">
                 <input type="checkbox" name="Bosch" id="Bosch" checked>
@@ -93,7 +96,7 @@
 
           <fieldset>
 
-            <legend>Питание:</legend>
+            <legend class="power">Питание:</legend>
             <label>
               <input type="radio" name="power" value="Аккумуляторные" checked>
               Аккумуляторные
@@ -106,7 +109,7 @@
 
           </fieldset>
 
-          <button type="submit">Показать</button>
+          <button type="submit" class="btn-filter">Показать</button>
 
         </form>
 
@@ -136,40 +139,40 @@
 
       <div class="catalog">
         <ul>
-          <li>
+          <li class="BFG-6000">
             <img src="img/snippet-945-copy-2.png" width="144" height="128" alt="BOSCH BFG 6000">
             <h3>
               Перфоратор BOSCH BFG 6000
             </h3>
-            <p><s>30500 Р.</s></p>
-            <p>25500 Р.</p>
+            <p class="p-close"><s>30500 Р.</s></p>
+            <p class="price">25500 Р.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="marker">В закладки</a>
           </li>
 
-          <li>
+          <li class="BFG-6000">
             <img src="img/snippet-945-copy-2.png" width="144" height="128" alt="BOSCH BFG 6000">
             <h3>
               Перфоратор BOSCH BFG 6000
             </h3>
-            <p><s>30500 Р.</s></p>
-            <p>25500 Р.</p>
+            <p class="p-close"><s>30500 Р.</s></p>
+            <p class="price">25500 Р.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="marker">В закладки</a>
           </li>
 
-          <li>
+          <li class="BFG-6000">
             <img src="img/snippet-945-copy-2.png" width="144" height="128" alt="BOSCH BFG 6000">
             <h3>
               Перфоратор BOSCH BFG 6000
             </h3>
-            <p><s>30500 Р.</s></p>
-            <p>25500 Р.</p>
+            <p class="p-close"><s>30500 Р.</s></p>
+            <p class="price">25500 Р.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="marker">В закладки</a>
 
             <span>New</span>
           </li>
@@ -179,25 +182,27 @@
             <h3>
               Перфоратор BOSCH BFG 3000
             </h3>
-            <p><s>22500 Р.</s></p>
-            <p>15500 Р.</p>
+            <p class="p-close"><s>22500 Р.</s></p>
+            <p class="price">15500 Р.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <p class="img-red"></p>
+
+            <a href="" class="buy">Купить</a>
+            <a href="" class="marker">В закладки</a>
 
             <span>New</span>
           </li>
 
-          <li>
+          <li class="BFG-6000">
             <img src="img/snippet-945-copy-2.png" width="144" height="128" alt="BOSCH BFG 6000">
             <h3>
               Перфоратор BOSCH BFG 6000
             </h3>
-            <p><s>30500 Р.</s></p>
-            <p>25500 Р.</p>
+            <p class="p-close"><s>30500 Р.</s></p>
+            <p class="price">25500 Р.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="marker">В закладки</a>
           </li>
 
           <li>
@@ -205,10 +210,10 @@
             <h3>
               Перфоратор BOSCH BFG 2000
             </h3>
-            <p>12500 Р.</p>
+            <p class="price">12500 Р.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="marker">В закладки</a>
 
             <span>New</span>
           </li>
@@ -218,25 +223,25 @@
             <h3>
               Перфоратор BOSCH BFG 3000
             </h3>
-            <p><s>22500 Р.</s></p>
-            <p>15500 Р.</p>
+            <p class="p-close"><s>22500 Р.</s></p>
+            <p class="price">15500 Р.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="marker">В закладки</a>
 
             <span>New</span>
           </li>
 
-          <li>
+          <li class="BFG-6000">
             <img src="img/snippet-945-copy-2.png" width="144" height="128" alt="BOSCH BFG 6000">
             <h3>
               Перфоратор BOSCH BFG 6000
             </h3>
-            <p><s>30500 Р.</s></p>
-            <p>25500 Р.</p>
+            <p class="p-close"><s>30500 Р.</s></p>
+            <p class="price">25500 Р.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="marker">В закладки</a>
           </li>
 
           <li>
@@ -244,10 +249,10 @@
             <h3>
               Перфоратор BOSCH BFG 2000
             </h3>
-            <p>12500 Р.</p>
+            <p class="price">12500 Р.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="marker">В закладки</a>
 
             <span>New</span>
           </li>
@@ -268,17 +273,17 @@
 
     </main>
 
-    <footer>
+    <footer class="footer">
 
-      <section class="footer-one">
+      <section class="footer-one footer-up">
         <a>
-          <img src="img/logo-technomart.svg" width="220" height="47" alt="logo">
+          <img src="img/logo-technomart.svg" width="220" height="47" alt="logo" class="logo-img">
         </a>
-        <span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
-        <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+        <span class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
+        <a href="tel:+78125550555" class="footer-number">+7 (812) 555-05-55</a>
       </section>
 
-      <section class="footer-two">
+      <section class="footer-two footer-up">
         <ul class="footer-nav">
           <li>
             <a href="">Компания</a>
@@ -297,7 +302,7 @@
           </li>
         </ul>
 
-        <ul class="footer-catalog">
+        <ul class="footer-catalog footer-up">
           <li>
             <a href="">Материалы</a>
           </li>
@@ -318,18 +323,18 @@
           &copy; 2010-1019 Компания "Техномарт" <br>
           Все права защищены
         </p>
-        <ul>
+        <ul class="social">
           <li>
-            <a href="">vkontakte</a>
+            <a href="" class="vk">vkontakte</a>
           </li>
           <li>
-            <a href="">facebook</a>
+            <a href="" class="fb">facebook</a>
           </li>
           <li>
-            <a href="">instagram</a>
+            <a href="" class="inst">instagram</a>
           </li>
         </ul>
-        <p>
+        <p class="copyright">
           Обратная связь:
           <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         </p>
