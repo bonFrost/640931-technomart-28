@@ -78,27 +78,43 @@ header p {
   background-color: #EE3643;
 }
 
-/* .search {
-  background-image: url(../img/icon-search.svg);
-  background-repeat: no-repeat;
-} */
+.search {
+  background-color: #293449;
+}
+
+
 
 /* Динамика menu */
-.menu a:hover {
+.logo-img:active,
+.catalog-shopping-cart:active {
+  background-color: var(--error);
+}
 
+.marker:active,
+.shopping-cart:active {
+  background-color: #161D29;
 }
 
 .btn-header:hover {
   background-color: #5FBB2D;
 }
 
-.search:hover {
-  background-color: var(--white);
-  color: #000000;
+.btn-header:active {
+  opacity: 75%;
 }
 
-.menu a:active {
-  opacity: 75%;
+/* .search:active {
+  background-color: var(--white);
+  color: #000000;
+} */
+
+form.block-search {
+  display: flex;
+}
+
+.search:active + .btn-search{
+  background-color: var(--white);
+  color: #000000;
 }
 
 /* Динамика входа */
@@ -118,8 +134,8 @@ header p {
 }
 
 .sub-menu a:active {
-  background-color: #293449;
-  opacity: 25%;
+  background-color: #1D2739;
+  opacity: 75%;
 }
 
 .menu a,
@@ -141,7 +157,7 @@ header p {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .header-address {
@@ -329,7 +345,7 @@ header p {
 }
 
 /* Catalog */
-.shopping-cart {
+.catalog-shopping-cart {
   background-color: #EE3643;
 }
 
@@ -378,6 +394,7 @@ header p {
   line-height: 18px;
   font-weight: 400;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .catalog-title {
@@ -387,6 +404,7 @@ header p {
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 /* FIlter */
@@ -396,7 +414,7 @@ header p {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000000;
   text-transform: uppercase;
 }
@@ -442,7 +460,7 @@ fieldset label {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000000;
 }
 
@@ -450,7 +468,7 @@ fieldset label {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
-  font-weight: bold;
+  font-weight: 700;
   color:#a9a9a9;
 }
 
@@ -458,14 +476,13 @@ fieldset label {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(../img/red-buttonred-icon.svg);
-  background-repeat: no-repeat;
+  background-color: #EE3643;
 }
 
 .buy {
@@ -474,14 +491,14 @@ fieldset label {
 
 }
 
-.marker {
+.in-marker {
   border: 3px solid #63A63E;
   background-color: #ffffff;
   color: #32425C;
 }
 
 .buy,
-.marker {
+.in-marker {
 
   border-radius: 2px;
   font-family: "Cuprum", "Arial", sans-serif;

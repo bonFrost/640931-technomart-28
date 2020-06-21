@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
     <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -11,12 +12,16 @@
 
     <header class="header">
       <section class="menu">
-          <a>
+          <a href="index.html">
             <img src="img/logo-technomart.svg" width="220" height="47" alt="logo" class="logo-img">
           </a>
-          <span class="search">Поиск</span>
-          <a href="">Закладки: 0</a>
-          <a href="" class="shopping-cart">Корзина: 10</a>
+          <!-- <span class="search">Поиск</span> -->
+          <label for="search">
+            <input type="search" name="search" class="search" placeholder="Поиск:">
+          </label>
+
+          <a href="" class="marker">Закладки: 0</a>
+          <a href="" class="catalog-shopping-cart">Корзина: 10</a>
           <a href="" class="btn-header">Оформить заказ</a>
       </section>
 
@@ -148,7 +153,7 @@
             <p class="price">25500 Р.</p>
 
             <a href="" class="buy">Купить</a>
-            <a href="" class="marker">В закладки</a>
+            <a href="" class="in-marker">В закладки</a>
           </li>
 
           <li class="BFG-6000">
@@ -160,7 +165,7 @@
             <p class="price">25500 Р.</p>
 
             <a href="" class="buy">Купить</a>
-            <a href="" class="marker">В закладки</a>
+            <a href="" class="in-marker">В закладки</a>
           </li>
 
           <li class="BFG-6000">
@@ -172,7 +177,7 @@
             <p class="price">25500 Р.</p>
 
             <a href="" class="buy">Купить</a>
-            <a href="" class="marker">В закладки</a>
+            <a href="" class="in-marker">В закладки</a>
 
             <span>New</span>
           </li>
@@ -188,7 +193,7 @@
             <p class="img-red"></p>
 
             <a href="" class="buy">Купить</a>
-            <a href="" class="marker">В закладки</a>
+            <a href="" class="in-marker">В закладки</a>
 
             <span>New</span>
           </li>
@@ -202,7 +207,7 @@
             <p class="price">25500 Р.</p>
 
             <a href="" class="buy">Купить</a>
-            <a href="" class="marker">В закладки</a>
+            <a href="" class="in-marker">В закладки</a>
           </li>
 
           <li>
@@ -213,7 +218,7 @@
             <p class="price">12500 Р.</p>
 
             <a href="" class="buy">Купить</a>
-            <a href="" class="marker">В закладки</a>
+            <a href="" class="in-marker">В закладки</a>
 
             <span>New</span>
           </li>
@@ -227,7 +232,7 @@
             <p class="price">15500 Р.</p>
 
             <a href="" class="buy">Купить</a>
-            <a href="" class="marker">В закладки</a>
+            <a href="" class="in-marker">В закладки</a>
 
             <span>New</span>
           </li>
@@ -241,7 +246,7 @@
             <p class="price">25500 Р.</p>
 
             <a href="" class="buy">Купить</a>
-            <a href="" class="marker">В закладки</a>
+            <a href="" class="in-marker">В закладки</a>
           </li>
 
           <li>
@@ -252,7 +257,7 @@
             <p class="price">12500 Р.</p>
 
             <a href="" class="buy">Купить</a>
-            <a href="" class="marker">В закладки</a>
+            <a href="" class="in-marker">В закладки</a>
 
             <span>New</span>
           </li>
@@ -276,7 +281,7 @@
     <footer class="footer">
 
       <section class="footer-one footer-up">
-        <a>
+        <a href="index.html">
           <img src="img/logo-technomart.svg" width="220" height="47" alt="logo" class="logo-img">
         </a>
         <span class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
