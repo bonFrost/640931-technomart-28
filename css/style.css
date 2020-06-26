@@ -103,19 +103,34 @@ header p {
   opacity: 75%;
 }
 
-/* .search:active {
-  background-color: var(--white);
-  color: #000000;
-} */
 
+/* SEACRH */
 form.block-search {
   display: flex;
+  flex-direction: row-reverse;
 }
 
-.search:active + .btn-search{
+.btn-search {
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
+
+.search:hover + .btn-search{
+  background-color: gold;
+}
+
+.search:focus + .btn-search {
   background-color: var(--white);
   color: #000000;
 }
+
 
 /* Динамика входа */
 .log-in:hover,
