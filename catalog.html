@@ -59,7 +59,19 @@
 
       <h1 class="catalog-title">Перфораторы</h1>
 
-      <section class="filter">
+      <section>
+
+        <section class="filter">
+          <h2 class="filter-title">
+            Фильтр:
+          </h2>
+        </section>
+
+        <section class="cost">
+          <h2>Цена:</h2>
+
+          <input type="range" min="0" max="40000" step="500">
+        </section>
 
         <form action="https://echo.htmlacademy.ru" method="get">
 
@@ -133,13 +145,17 @@
           <li>
             <a href="">По функционалу</a>
           </li>
+        </ul>
+
+        <ul class="sort-up-down">
           <li>
-            <a href="">По возрастанию</a>
+            <a href="" class="sort-up"><object data="img/icon-up-dir.svg" type="image/svg+xml"></object></a>
           </li>
           <li>
-            <a href="">По убыванию</a>
+            <a href="" class="sort-down"><object data="img/icon-down-dir.svg" type="image/svg+xml"></object></a>
           </li>
         </ul>
+
       </section>
 
       <div class="catalog">
@@ -264,18 +280,21 @@
         </ul>
       </div>
 
-      <a>1</a>
-      <a href="">2</a>
-      <a href="">3</a>
-      <a href="">Следующая</a>
+      <section class="btn-list">
+        <a class="btn-list-one">1</a>
+        <a href="" class="btn-list-click">2</a>
+        <a href="" class="btn-list-click">3</a>
+        <a href="" class="btn-list-next">Следующая</a>
+      </section>
 
-      <h2>Пара слов о перфораторах</h2>
-      <p>
-        Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбения отверстий в кирпиче, бетоне и камне.
-        Существуют электромеханические и пневматические перфораторы. Совеременные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.
-        В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.
-      </p>
-
+      <section class="pre-footer">
+        <h2>Пара слов о перфораторах</h2>
+        <p>
+          Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбения отверстий в кирпиче, бетоне и камне.
+          Существуют электромеханические и пневматические перфораторы. Совеременные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.
+          В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+        </p>
+      </section>
     </main>
 
     <footer class="footer">

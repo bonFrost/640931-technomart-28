@@ -126,7 +126,7 @@ form.block-search {
   background-color: gold;
 }
 
-.search:focus + .btn-search {
+.search:focus {
   background-color: var(--white);
   color: #000000;
 }
@@ -203,6 +203,226 @@ form.block-search {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
+  font-weight: 400;
+}
+
+/* MAIN NAV */
+.main-nav {
+  list-style: none;
+}
+
+/* MATERIALS */
+.materials {
+  background-color: #FFBF47;
+  color: var(--white);
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+
+/* INSTRUMENTS */
+.instruments {
+  background-color: #3BBCE3;
+  color: var(--white);
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+
+/* TECHNICS */
+.technics {
+  background-color: #DC91D8;
+  color: var(--white);
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+
+/* SALES */
+.sales {
+  background-color: #8ED78F;
+  color: var(--white);
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+
+
+/* DELIVER */
+.deliver {
+  background-color: #FFC047;
+  color: var(--white);
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+/* MAIN NAV BTN */
+.main-nav-btn {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: var(--white);
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/* MAIN-BTN-NAV DYNAMIC */
+.main-nav-btn:hover {
+  background-color: rgba(197, 197, 197, 0.3);
+}
+
+.main-nav-btn:active {
+  background-color: rgba(169, 169, 169, 0.3);
+}
+
+
+/* SLIDER */
+.slide {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.slide-title {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.slide-p {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.btn-slide {
+  background-color: var(--basic-red);
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.btn-slide:active {
+  background-color: var(--error);
+}
+
+
+/* POPULAR ITEM */
+.popular-item ul {
+  list-style: none;
+}
+
+.popular-item-header,
+.pop-manufac-header {
+  background-color: #F9F5F0;
+}
+
+.popular-item-title,
+.pop-manufac-title {
+  color: #32425C;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.all-popular-item,
+.all-pop-manufac {
+  background-color: var(--basic-red);
+  color: #ffffff;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+/* POP MANUFAC */
+.pop-manufac ul {
+  list-style: none;
+}
+
+
+/* SERVICES */
+.services {
+  background-color: var(--basic-background);
+}
+
+.services-header h2 {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.services-header p {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.services-button button {
+  background-color: #32425C;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 240px;
+  height: 61px;
+  outline: none;
+}
+
+.services-button button:hover {
+  background-color: #293449;
+}
+
+.services-button button:focus {
+  background-color: var(--white);
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #32425C;
+  outline: none;
+}
+
+/* services-slider */
+.services-slider h3 {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #32425C;
+}
+
+.btn-slider {
+  background-color: #FF5357;
+  color: white;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
   font-weight: 400;
 }
 
@@ -359,7 +579,7 @@ form.block-search {
   color: #EE3643;
 }
 
-/* Catalog */
+/* CATALOG !!! */
 .catalog-shopping-cart {
   background-color: #EE3643;
 }
@@ -423,6 +643,18 @@ form.block-search {
 }
 
 /* FIlter */
+.filter {
+  background-color: #F7F3EC;
+}
+
+.filter-title {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+}
 
 .fabricator,
 .power {
@@ -455,7 +687,57 @@ fieldset label {
 }
 
 /* SORT */
+.sort {
+  background-color: #F7F3EC;
+}
 
+.sort ul {
+  list-style: none;
+}
+
+.sort h2 {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.sort-list a {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dotted #EE3643;
+  text-transform: uppercase;
+}
+
+.sort-list a:hover {
+  color: rgba(0, 0, 0, 1);
+  border-bottom: 1px solid #EE3643;
+}
+
+.sort-list a:active {
+  color: #EE3643;
+  border-bottom: none;
+}
+
+.sort-up,
+.sort-down {
+  opacity: 30%;
+}
+
+.sort-up:hover,
+.sort-down:hover {
+  opacity: 100%;
+}
+
+.sort-up:active,
+.sort-down:active {
+  fill: #EE3643;
+}
 
 
 /* CATALOG */
@@ -493,10 +775,10 @@ fieldset label {
   line-height: 18px;
   font-weight: 700;
   color: #ffffff;
-  padding-top: 20px;
+  /* padding-top: 20px;
   padding-bottom: 20px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; */
   background-color: #EE3643;
 }
 
@@ -514,10 +796,53 @@ fieldset label {
 
 .buy,
 .in-marker {
-
   border-radius: 2px;
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
+}
+
+.btn-list a {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  background-color: white;
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
+}
+
+a.btn-list-one {
+  background-color: #EE3643;
+  color: white;
+}
+
+.btn-list a:hover {
+  border: 1px solid #C5C5C5;
+}
+
+.btn-list a:active {
+  border: 1px solid #EE3643;
+}
+
+.pre-footer {
+  background-color: var(--basic-background);
+}
+
+.pre-footer h2 {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: black;
+}
+
+.pre-footer p {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: black;
 }

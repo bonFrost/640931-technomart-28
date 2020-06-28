@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -14,23 +14,11 @@
         <a>
           <img src="img/logo-technomart.svg" width="220" height="47" alt="logo" class="logo-img">
         </a>
-        <!-- <label for="search">
-          <input type="search" name="search" class="search" placeholder="Поиск:">
-        </label> -->
-
-        <!-- <form class="block-search">
-          <button type="submit" class="btn-search"></button>
-          <label for="search"></label>
-          <input type="search" class="search" id="search">
-
-        </form> -->
 
         <form class="block-search">
-
           <label for="search"></label>
           <input type="search" class="search" id="search">
           <button type="submit" class="btn-search"></button>
-
         </form>
 
         <a href="" class="marker">Закладки: 0</a>
@@ -63,40 +51,40 @@
 
       <h1 class="visually-hidden">Техномарт</h1>
       <ul class="main-nav">
-        <li>
+        <li class="materials">
             <p>Материалы</p>
-            <a href="">На любой вкус</a>
+            <a href="" class="main-nav-btn">На любой вкус</a>
         </li>
-        <li>
+        <li class="instruments">
           <p>Инструмент</p>
-          <a href="">На все случаи</a>
+          <a href="" class="main-nav-btn">На все случаи</a>
         </li>
-        <li>
+        <li class="technics">
           <p>Техника</p>
-          <a href="">Для стройки</a>
+          <a href="" class="main-nav-btn">Для стройки</a>
         </li>
-        <li>
+        <li class="sales">
           <p>Скидки 50%</p>
-          <a href="">На 350 товаров</a>
+          <a href="" class="main-nav-btn">На 350 товаров</a>
         </li>
-        <li>
+        <li class="deliver">
           <p>Доставка</p>
-          <a href="">Бесплатно</a>
+          <a href="" class="main-nav-btn">Бесплатно</a>
         </li>
         <li>
           <section class="slider">
             <h2 class="visually-hidden"></h2>
             <section class="slide">
-              <p>Перфораторы</p>
-              <p>Нaстоящие мужские игрушки</p>
+              <p class="slide-title">Перфораторы</p>
+              <p class="slide-p">Нaстоящие мужские игрушки</p>
               <img src="img/layer-99.jpg" width="620" height="266" alt="мужчина с перфоратором">
-              <a href="">Открыть каталог</a>
+              <a href="" class="btn-slide">Открыть каталог</a>
             </section>
             <section class="slide">
-              <p>Дрели</p>
-              <p>Соседям на радость!</p>
+              <p class="slide-title">Дрели</p>
+              <p class="slide-p">Соседям на радость!</p>
               <img src="img/layer-100.jpg" width="620" height="266" alt="мужчина с дрелью">
-              <a href="">Открыть каталог</a>
+              <a href="" class="btn-slide">Открыть каталог</a>
             </section>
             <section class="">
               <button class="prev">prev</button>
@@ -106,56 +94,60 @@
         </li>
       </ul>
 
-      <section class="popular-item">
-        <h2>Популярные товары:</h2>
+      <section class="popular-item catalog">
+        <section class="popular-item-header">
+          <h2 class="popular-item-title">Популярные товары:</h2>
+          <a href="" class="all-popular-item">Все популярные товары</a>
+        </section>
         <ul>
           <li>
             <img src="img/snippet-32961-copy-3.png" width="184" height="164" alt="BFG 9000">
             <h3>Перфоратор BOSCH BFG 9000</h3>
-            <p><s>32500 P.</s></p>
-            <p>25500 P.</p>
+            <p class="p-close"><s>32500 P.</s></p>
+            <p class="price">25500 P.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="in-marker">В закладки</a>
           </li>
           <li>
             <img src="img/snippet-32961-copy-3.png" width="127" height="112" alt="BFG 3000">
             <h3>Перфоратор BOSCH BFG 3000</h3>
-            <p><s>22500 P.</s></p>
-            <p>15500 P.</p>
+            <p class="p-close"><s>22500 P.</s></p>
+            <p class="price">15500 P.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="in-marker">В закладки</a>
 
             <span>New</span>
           </li>
           <li>
             <img src="img/snippet-945-copy-2.png" width="144" height="128" alt="BFG 6000">
             <h3>Перфоратор BOSCH BFG 6000</h3>
-            <p><s>30500 P.</s></p>
-            <p>25500 P.</p>
+            <p class="p-close"><s>30500 P.</s></p>
+            <p class="price">25500 P.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="in-marker">В закладки</a>
           </li>
           <li>
             <img src="img/snippet-18927-copy-3.png" width="127" height="112" alt="BFG 2000">
             <h3>Перфоратор BOSCH BFG 2000</h3>
-            <p>12500 P.</p>
+            <p class="price">12500 P.</p>
 
-            <a href="">Купить</a>
-            <a href="">В закладки</a>
+            <a href="" class="buy">Купить</a>
+            <a href="" class="in-marker">В закладки</a>
 
             <span>New</span>
           </li>
         </ul>
 
-        <a href="">Все популярные товары</a>
       </section>
 
       <section class="pop-manufac">
-
-        <h2>Популярные производители:</h2>
+        <section class="pop-manufac-header">
+          <h2 class="pop-manufac-title">Популярные производители:</h2>
+          <a href="" class="all-pop-manufac">Все производители</a>
+        </section>
 
         <ul>
           <li>
@@ -200,38 +192,39 @@
           </li>
         </ul>
 
-        <a href="">Все производители</a>
       </section>
 
       <section class="services">
-        <h2>Сервисы</h2>
-        <p>
-          Хороший интернет-магазин отличается от плохого не тольок ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-        </p>
+        <section class="services-header">
+          <h2 class="services-title">Сервисы</h2>
+          <p>
+            Хороший интернет-магазин отличается от плохого не тольок ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+          </p>
+        </section>
 
         <section class="services-button">
-          <button>Доставка</button>
+          <button autofocus>Доставка</button>
           <button>Гарантия</button>
           <button>Кредит</button>
         </section>
 
         <section class="services-slider">
           <section class="services-slide">
-            <h3>Доставка</h3>
+            <h3 class="slide-title">Доставка</h3>
             <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
             <img src="img/layer-131-1.png" width="468" height="261" alt="грузовик">
           </section>
           <section  class="services-slide">
-            <h3>Гарантия</h3>
+            <h3 class="slide-title">Гарантия</h3>
             <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите сами как-нибудь.</p>
             <img src="img/layer-130.png" width="389" height="283" alt="медаль">
           </section>
           <section class="services-slide">
-            <h3>Кредит</h3>
+            <h3 class="slide-title">Кредит</h3>
             <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
             <img src="img/layer-119.png" width="465" height="285" alt="бланк">
 
-            <a href="">Отправить заявку</a>
+            <a href="" class="btn-slider">Отправить заявку</a>
           </section>
         </section>
 
