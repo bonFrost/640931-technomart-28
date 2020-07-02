@@ -274,6 +274,7 @@ form.block-search {
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
+  text-transform: uppercase;
 }
 
 /* MAIN-BTN-NAV DYNAMIC */
@@ -293,10 +294,11 @@ form.block-search {
 
 .slide-title {
   font-family: "Cuprum", "Arial", sans-serif;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 30px;
   font-weight: 700;
   color: var(--white);
+  text-transform: uppercase;
 }
 
 .slide-p {
@@ -314,6 +316,10 @@ form.block-search {
   line-height: 18px;
   font-weight: 400;
   color: var(--white);
+}
+
+.btn-slide:hover {
+  background-color: #CA2C37;
 }
 
 .btn-slide:active {
@@ -356,6 +362,21 @@ form.block-search {
 /* POP MANUFAC */
 .pop-manufac ul {
   list-style: none;
+}
+
+.pop-manufac-list {
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+}
+
+.pop-manufac-list a:hover {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.pop-manufac-list a:active {
+  opacity: 0.5;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -584,10 +605,6 @@ form.block-search {
   background-color: #EE3643;
 }
 
-.shopping-cart:hover {
-
-}
-
 .catalog-personal-area {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
@@ -687,6 +704,15 @@ fieldset label {
 }
 
 /* SORT */
+.cost h2 {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: black;
+}
+
 .sort {
   background-color: #F7F3EC;
 }
@@ -785,11 +811,33 @@ fieldset label {
 .buy {
   background-color: #63A63E;
   color: #ffffff;
+  text-transform: uppercase;
 
+}
+
+.buy:hover {
+  background-color: var(--success);
+}
+
+.buy:active {
+  background-color: #518534;
 }
 
 .in-marker {
   border: 3px solid #63A63E;
+  background-color: #ffffff;
+  color: #32425C;
+  text-transform: uppercase;
+}
+
+.in-marker:hover {
+  border: 3px solid #32425C;
+  background-color: #ffffff;
+  color: #32425C;
+}
+
+.in-marker:active {
+  border: 3px solid rgba(50, 66, 92, 0.4);
   background-color: #ffffff;
   color: #32425C;
 }
@@ -812,6 +860,7 @@ fieldset label {
   background-color: white;
   border: 1px solid #E5E5E5;
   border-radius: 2px;
+  text-transform: uppercase;
 }
 
 a.btn-list-one {
@@ -837,6 +886,7 @@ a.btn-list-one {
   line-height: 30px;
   font-weight: 400;
   color: black;
+  text-transform: uppercase;
 }
 
 .pre-footer p {
